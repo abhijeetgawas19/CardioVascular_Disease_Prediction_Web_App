@@ -42,23 +42,23 @@
                 <form action="{{url_for('predict')}}" method="POST">
                     <!-- 5 Controls Age,Height, Weight, Systolic, Diastolic -->
                     <div class="form-group">
-                      <label> Enter the Age <span>*</span></label>
+                      <label> Enter the Age (30 - 65) <span>*</span></label>
                       <input name="age" type="number" class="form-control" min="30" max="65" required>
                     </div>
                     <div class="form-group">
-                      <label> Enter the Height (cm) <span>*</span></label>
+                      <label> Enter the Height (cm) (152 - 178) <span>*</span></label>
                       <input name="height" type="number" class="form-control" min="152" max="178" required>
                     </div>
                     <div class="form-group">
-                      <label> Enter the Weight (kg) <span>*</span></label>
+                      <label> Enter the Weight (kg) (50 - 120) <span>*</span></label>
                       <input name="weight" type="number" class="form-control" min="50" max="120" required>
                     </div>
                     <div class="form-group">
-                      <label> Enter the Systolic Blood Pressure (mm/Hg) <span>*</span></label>
+                      <label> Enter the Systolic Blood Pressure (mm/Hg) (60 - 280) <span>*</span></label>
                       <input name="sysbp" type="number" class="form-control" min="60" max="280" required>
                     </div>
                     <div class="form-group">
-                      <label> Enter the Diastolic Blood Pressure (mm/Hg) <span>*</span></label>
+                      <label> Enter the Diastolic Blood Pressure (mm/Hg) (50 - 150) <span>*</span></label>
                       <input name="dysbp" type="number" class="form-control" min="50" max="150" required>
                     </div>
                     <button type="submit" class="btn btn-outline-dark">Submit</button>
